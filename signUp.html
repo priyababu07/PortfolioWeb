@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body {
+            background-image: url("/Portfolio/img.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0; /* Remove default margin */
+            font-family: Arial, sans-serif;
+        }
+
+        #Body {
+            background-color: rgba(255, 255, 0, 0.5); /* Semi-transparent yellow background */
+            width: 60%;
+            margin: 60px auto;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            text-align: left; /* Align form elements to the left */
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, td {
+            border: 3px solid #ccc;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+
+        td {
+            vertical-align: top; /* Align text at the top of each cell */
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="date"] {
+            width: 100%;
+            padding: 5px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"],
+        input[type="button"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="button"]:hover {
+            background-color: #45a049;
+        }      
+        
+    </style>
+</head>
+<body>
+    <div id="Body">
+        <center>
+            <h1>FORM TO FILL</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td><br>First Name</td>
+                    <td><br><input type="text"></td>
+                </tr>
+                
+                <tr>
+                    <td><br>Middle Name</td>
+                    <td><br><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><br>Last Name</td>
+                    <td><br><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><br>Age </td>
+                <td><br><input type="text"></td>
+            </tr>
+                <tr>
+                    <td><br>Date Of Birth</td>
+                <td><br><input type="date" name="birthDate" id="birthDate"></td>
+            </tr>
+                <tr><td><br>Gender</td>
+                <td><ul>
+                    <li>Male<input type="radio" name="Male" id="gender"></li>
+                    <li>Female<input type="radio" name="Female" id="gender"></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><br>Pincode:</td>
+                <td><br><input type="number" name="pincode" id="pin"></td>
+            </tr>
+            <tr>
+                <td><br>Email:</td>
+                <td><br><input type="email" name="myemail1" id="myemail1"></td>
+
+            </tr>
+            <tr>
+                <td><br>City:</td>
+                <td><br><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><br>Zip Code:</td>
+                <td><br><input type="text" name="mytext" id=""></td>
+            </tr>
+            <tr>
+                <td><br><input type="submit" value="submit"></td>
+                <td><br><input type="button" value="save"></td>
+            </tr>
+            </table>
+            
+           
+            
+        </form>
+    </center>
+    </div>
+    
+</body>
+</html>
