@@ -122,6 +122,8 @@ button:hover {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-bottom: 20px;
+	border: 1px solid red;
+	font-weight: larger;
 }
 
 .contact-info h2 {
@@ -148,5 +150,5 @@ footer{
 	position: fixed;
 	top: 95%;
 	text-align: center;
-	padding-top: 20px;
+	padding: 10px;
 }
